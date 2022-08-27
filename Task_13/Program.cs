@@ -3,7 +3,7 @@
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 
-int count = 1000;
+int count = 999;
 int check = 100;
 int num = 10;
 
