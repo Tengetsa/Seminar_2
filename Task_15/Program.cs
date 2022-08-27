@@ -9,7 +9,7 @@ if (number < 1 || number > 7)
 }
 else if (number == 6 || number == 7)
 {
-    Console.Write("Выходной: ");
+    Console.Write("Выходной день: ");
 }
 else
 {
@@ -25,32 +25,32 @@ switch (number)
     }
     case 2:
     {
-        Console.WriteLine("Вторник");
+        Console.Write("Вторник");
         break;
     }
     case 3:
     {
-        Console.WriteLine("Среда");
+        Console.Write("Среда");
         break;
     }
     case 4:
     {
-        Console.WriteLine("Четверг");
+        Console.Write("Четверг");
         break;
     }
     case 5:
     {
-        Console.WriteLine("Пятница");
+        Console.Write("Пятница");
         break;
     }
     case 6:
     {
-        Console.WriteLine("Суббота");
+        Console.Write("Суббота");
         break;
     }
     case 7:
     {
-        Console.WriteLine("Воскресенье");
+        Console.Write("Воскресенье");
         break;
     }
 }
