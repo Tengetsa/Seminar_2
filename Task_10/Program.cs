@@ -4,7 +4,7 @@ Console.WriteLine("Введите трёхзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine()!);
 int result;
 
-if (num < 99 || num >999)
+if (num < 100 || num >999)
 {
     Console.Write("Введено некорректное число");
 }
